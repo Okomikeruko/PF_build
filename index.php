@@ -44,52 +44,58 @@
 	<div class="header">
     	<h1>Find Products That Fit Your Goals</h1>
     </div>
-    <div class="box" id="gender_box">
-    	<h5>Start Here</h5>
-        <div class="row">
-        	<div class="col-xs-2 col-xs-offset-4">
-        		<img class="gender_button" id="male_gender_button" onclick="gender('male')" /> 
-        		<h3>Male</h3>
-            </div>
-            <div class="col-xs-2">
-		        <img class="gender_button" id="female_gender_button" onclick="gender('female')"/>
-    	    	<h3>Female</h3>
-            </div>
-        </div>
-    </div>
-    <div class="box" id="age_box">
-    	<h1>How old are you?</h1>
-        <div class="age_slider">
-        	<div class="dragdealer" id="age-drag">
-<!--	        <div class="col-xs-6 col-sm-offset-3" id="slider"></div> -->
-				<div class="handle" id="slider-ball"> </div>
-            </div>
-        </div>
-    </div>
-    <div class="box" id="goal_box">
-    	<div class="row">
-        	<div class="col-xs-2 col-xs-offset-2">
-            	<div class="goal" id="goal-fat-loss" onclick="goal('fatloss')">
-                	<img src="images/icon-fat-loss.png" alt="Fat Loss">
-                	<h4> Fat Loss </h4>
+    <div class="slider_holder">
+        <div class="box_slider" style="left: 0;">
+            <div class="box" id="gender_box">
+                <h5>Start Here</h5>
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-4">
+                        <img class="gender_button" id="male_gender_button" onclick="gender('male')" /> 
+                        <h3>Male</h3>
+                    </div>
+                    <div class="col-xs-2">
+                        <img class="gender_button" id="female_gender_button" onclick="gender('female')"/>
+                        <h3>Female</h3>
+                    </div>
                 </div>
             </div>
-            <div class="col-xs-2">
-            	<div class="goal" id="goal-muscle" onclick="goal('muscle')">
-                	<img src="images/icon-muscle-en.png" alt="Muscle Enhancement">
-                	<h4> Muscle Enhancement </h4>
+            <div class="box" id="age_box">
+                <h1>How old are you?</h1>
+                <div class="age_slider">
+                    <div class="dragdealer" id="age-drag">
+                        <div class="handle" id="slider-ball"> </div>
+                    </div>
+                    <div class="age_button">
+                    	<button id="age_button_button" onClick="slideLeft()"></button>
+                   	</div>
                 </div>
             </div>
-            <div class="col-xs-2">
-            	<div class="goal" id="goal-daily" onclick="goal('daily')">
-                	<img src="images/icon-daily-maintenance.png" alt="Daily Maintenance">
-                	<h4> Daily Maintenance </h4>
-                </div>
-            </div>
-            <div class="col-xs-2">
-            	<div class="goal" id="goal-toning" onclick="goal('toning')">
-                	<img src="images/icon-toning.png" alt="Toning">
-                	<h4> Toning </h4>
+            <div class="box" id="goal_box">
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-2">
+                        <div class="goal" id="goal-fat-loss" onclick="goal('fatloss')">
+                            <img src="images/icon-fat-loss.png" alt="Fat Loss">
+                            <h4> Fat Loss </h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="goal" id="goal-muscle" onclick="goal('muscle')">
+                            <img src="images/icon-muscle-en.png" alt="Muscle Enhancement">
+                            <h4> Muscle Enhancement </h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="goal" id="goal-daily" onclick="goal('daily')">
+                            <img src="images/icon-daily-maintenance.png" alt="Daily Maintenance">
+                            <h4> Daily Maintenance </h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="goal" id="goal-toning" onclick="goal('toning')">
+                            <img src="images/icon-toning.png" alt="Toning">
+                            <h4> Toning </h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,11 +132,13 @@
 				break;
 		}
 		sex = g;
+		slideLeft();
 	}
 	
 	new Dragdealer('age-drag', {
 		animationCallback: function(x,y){
 			age = Math.round(x*100);
+			$('#age_button_button').text(age + " years old");
 		}
 	});
 	
@@ -146,6 +154,13 @@
 			}
 		}
 	}
+	
+	function slideLeft(){
+		$(".box_slider").animate({
+			left: "-=98.5%",
+			}, 1750);
+	}
+	
 	
 </script>
 

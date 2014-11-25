@@ -42,8 +42,20 @@ background: linear-gradient(to bottom,  #641664 0%,#4a0e49 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#641664', endColorstr='#4a0e49',GradientType=0 ); /* IE6-8 */	
 
 padding: 30px;
-
-
+height: 340px;
+width: 33%;
+position:relative;
+float: left;
+}
+.box_slider
+{
+	width: 300%;
+	position:relative;
+}
+.slider_holder
+{
+	width: 100%;
+	overflow: hidden;	
 }
 
 .gender_button
@@ -117,4 +129,18 @@ cursor: pointer;
 {
 display: block;
 margin: auto;
+}
+
+div.age_button
+{
+color: black;
+width: 100%;
+position: relative;
+top: 100px;	
+}
+
+button#age_button_button
+{
+position: relative;
+left: 46%;	
 }

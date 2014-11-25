@@ -60,8 +60,9 @@ float: left;
 
 .gender_button
 {
-	width: 100%;
-	height: auto;
+	width: 90%;
+height: auto;
+padding-left: 10%;
 	cursor: pointer;	
 }
 
@@ -142,5 +143,5 @@ top: 100px;
 button#age_button_button
 {
 position: relative;
-left: 46%;	
+left: 42%;
 }

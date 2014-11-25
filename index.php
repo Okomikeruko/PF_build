@@ -138,7 +138,7 @@
 	new Dragdealer('age-drag', {
 		animationCallback: function(x,y){
 			age = Math.round(x*100);
-			$('#age_button_button').text(age + " years old");
+			$('#age_button_button').text("Click if you are " + age + " years old. >>>");
 		}
 	});
 	

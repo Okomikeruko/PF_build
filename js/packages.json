@@ -5,7 +5,7 @@
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
-	{"title":"Daily Male One",
+	{"title":"Daily Male Two",
 	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
 	"genderQuery":"male","minAgeQuery":36,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
@@ -17,7 +17,7 @@
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
-	{"title":"Daily Female One",
+	{"title":"Daily Female Two",
 	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
 	"genderQuery":"female","minAgeQuery":36,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false

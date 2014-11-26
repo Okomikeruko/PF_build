@@ -30,12 +30,6 @@
   <script src="dragdealer-master/spec/browser-runner.js"></script>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  
-  <script>
-  $(function() {
-   // $( "#slider" ).slider();
-  });
-  </script>
 </head>
 
 <body>
@@ -73,25 +67,25 @@
             <div class="box" id="goal_box">
                 <div class="row">
                     <div class="col-xs-2 col-xs-offset-2">
-                        <div class="goal" id="goal-fat-loss" onclick="goal('fatloss')">
+                        <div class="goal" id="goal-fat-loss" onclick="goal('Fat')">
                             <img src="images/icon-fat-loss.png" alt="Fat Loss">
                             <h4> Fat Loss </h4>
                         </div>
                     </div>
                     <div class="col-xs-2">
-                        <div class="goal" id="goal-muscle" onclick="goal('muscle')">
+                        <div class="goal" id="goal-muscle" onclick="goal('Muscle')">
                             <img src="images/icon-muscle-en.png" alt="Muscle Enhancement">
                             <h4> Muscle Enhancement </h4>
                         </div>
                     </div>
                     <div class="col-xs-2">
-                        <div class="goal" id="goal-daily" onclick="goal('daily')">
+                        <div class="goal" id="goal-daily" onclick="goal('Daily')">
                             <img src="images/icon-daily-maintenance.png" alt="Daily Maintenance">
                             <h4> Daily Maintenance </h4>
                         </div>
                     </div>
                     <div class="col-xs-2">
-                        <div class="goal" id="goal-toning" onclick="goal('toning')">
+                        <div class="goal" id="goal-toning" onclick="goal('Tone')">
                             <img src="images/icon-toning.png" alt="Toning">
                             <h4> Toning </h4>
                         </div>
@@ -150,7 +144,7 @@
 				temp = temp.substring(0, temp.indexOf("?"));
 				window.location.href = temp + "?s=" + sex + "&a=" + age + "&g=" + theGoal;
 			}else{
-				window.location.href += "index.php?s=" + sex + "&a=" + age + "&g=" + theGoal;
+				window.location.href += "result.php?s=" + sex + "&a=" + age + "&g=" + theGoal;
 			}
 		}
 	}

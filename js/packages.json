@@ -1,72 +1,72 @@
 {"packages":[
 	{"title":"Daily Male One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":2455}],
 	"genderQuery":"male","minAgeQuery":18,"maxAgeQuery":35,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
 	{"title":"Daily Male Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":1778}],
 	"genderQuery":"male","minAgeQuery":36,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
 	{"title":"Daily Female One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":2079}],
 	"genderQuery":"female","minAgeQuery":18,"maxAgeQuery":35,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
 	{"title":"Daily Female Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":1279}],
 	"genderQuery":"female","minAgeQuery":36,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":true, "Tone":false
 		}
 	},
 	{"title":"Weight Loss One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":2680}],
 	"genderQuery":"both","minAgeQuery":18,"maxAgeQuery":45,"goalQuery":{
 		"Fat":true, "Muscle":false, "Daily":false, "Tone":false
 		}
 	},
 	{"title":"Weight Loss Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":366}],
 	"genderQuery":"both","minAgeQuery":46,"maxAgeQuery":100,"goalQuery":{
 		"Fat":true, "Muscle":false, "Daily":false, "Tone":false
 		}
 	},
 	{"title":"Men's Toner One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":2604}],
 	"genderQuery":"male","minAgeQuery":18,"maxAgeQuery":45,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":false, "Tone":true
 		}
 	},
 	{"title":"Men's Toner Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":419}],
 	"genderQuery":"male","minAgeQuery":35,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":false, "Tone":true
 		}
 	},
 	{"title":"Women's Toner One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":1634}],
 	"genderQuery":"female","minAgeQuery":18,"maxAgeQuery":45,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":false, "Tone":true
 		}
 	},
 	{"title":"Women's Toner Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":3399}],
 	"genderQuery":"female","minAgeQuery":35,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":false, "Daily":false, "Tone":true
 		}
 	},
 	{"title":"Muscle Builder One",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":1301}],
 	"genderQuery":"both","minAgeQuery":18,"maxAgeQuery":45,"goalQuery":{
 		"Fat":false, "Muscle":true, "Daily":false, "Tone":false
 		}
 	},
 	{"title":"Muscle Builder Two",
-	"products":[{"id":1234},{"id":1235},{"id":1236},{"id":1237}],
+	"products":[{"id":1442}],
 	"genderQuery":"both","minAgeQuery":46,"maxAgeQuery":100,"goalQuery":{
 		"Fat":false, "Muscle":true, "Daily":false, "Tone":false
 		}
